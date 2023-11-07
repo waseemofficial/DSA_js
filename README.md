@@ -9,7 +9,8 @@
 <img src="https://img.shields.io/badge/github-%23181717.svg?style=for-the-badge&logo=github&logoColor=white"/>
 <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
 <img src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white"/>
-</div></p>
+</div>
+</p>
 
 
 <div align="center">
@@ -37,10 +38,19 @@
 ![GitHub](https://img.shields.io/badge/-Regex-000?&logo=Regex)
 ![GithubActions](https://img.shields.io/badge/-GithubActions-000?&logo=GithubActions)
 </div>
+
 <div align="center">
  
 # DATA STRUCTURES AND ALGORITHMS
 
 </div>
 
+javaScript is enabled in this NoteBook
 
+> : info :
+>
+>first download package using 'npm'
+>```cmd
+>npm install ijavascript
+>ijsinstall
+>```
