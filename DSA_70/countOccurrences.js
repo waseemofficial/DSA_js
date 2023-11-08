@@ -8,4 +8,8 @@ function countOccurrences(str, char) {
   }
   return count;
 }
-module.exports = countOccurrences;
+function countOccurrences1(str, char) {
+  return str.split(char).length - 1;
+}
+
+module.exports = { countOccurrences, countOccurrences1 };
