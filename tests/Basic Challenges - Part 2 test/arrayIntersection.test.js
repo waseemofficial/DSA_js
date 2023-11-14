@@ -1,7 +1,7 @@
 const {
   arrayIntersection,
   arrayIntersection1,
-} = require("../DSA_70/arrayIntersection");
+} = require("../../DSA_70/Basic Challenges - Part 2/arrayIntersection");
 test("get a intersection of two array", () => {
   expect(
     arrayIntersection([1, 2, 3, 4, 5, 5, 9], [1, 2, 3, 4, 5, 7, 8])

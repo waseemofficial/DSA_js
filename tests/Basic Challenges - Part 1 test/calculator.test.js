@@ -1,4 +1,4 @@
-const calculator = require("../DSA_70/calculator");
+const calculator = require("../../DSA_70/Basic Challenges - Part 1/calculator");
 test("test addition in calculator", () => {
   let num1 = 5;
   let num2 = 7;

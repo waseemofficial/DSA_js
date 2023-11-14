@@ -1,4 +1,4 @@
-const titleCase = require("../DSA_70/titleCase");
+const titleCase = require("../../DSA_70/Basic Challenges - Part 1/titleCase");
 test("make first letter of each word in an sentence to upper case", () => {
   expect(titleCase("hello world!")).toBe("Hello World!");
   expect(titleCase("hEllo woRld!")).toBe("Hello World!");

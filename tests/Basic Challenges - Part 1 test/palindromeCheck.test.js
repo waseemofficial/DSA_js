@@ -1,7 +1,7 @@
 const {
   palindromeCheck1,
   palindromeCheck2,
-} = require("../DSA_70/palindromeCheck");
+} = require("../../DSA_70/Basic Challenges - Part 1/palindromeCheck");
 
 //first method using Regular expressions
 test("check if the given word is a Palindrome", () => {

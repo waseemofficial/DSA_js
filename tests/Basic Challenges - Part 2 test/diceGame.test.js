@@ -1,4 +1,4 @@
-const diceGame = require("../DSA_70/diceGame");
+const diceGame = require("../../DSA_70/Basic Challenges - Part 2/diceGame");
 describe("Dice Game", () => {
   test("simulation of a  Dice Game", () => {
     const numSimulations = 100;

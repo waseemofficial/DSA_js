@@ -1,7 +1,7 @@
 const {
   countOccurrences,
   countOccurrences1,
-} = require("../DSA_70/countOccurrences");
+} = require("../../DSA_70/Basic Challenges - Part 1/countOccurrences");
 // first method
 test("count the number of times a charactir appeares in the given word using for loop and if condition", () => {
   let word = "jaanbazalima";

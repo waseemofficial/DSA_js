@@ -1,4 +1,4 @@
-const countVowels = require("../DSA_70/countVowels");
+const countVowels = require("../../DSA_70/Basic Challenges - Part 1/countVowels");
 test("count how many vowles are there in a given word or a sentence", () => {
   expect(countVowels("hello")).toBe(2);
   expect(countVowels("why")).toBe(0);

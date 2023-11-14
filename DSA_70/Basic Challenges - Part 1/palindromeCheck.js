@@ -1,5 +1,7 @@
-const { format } = require("express/lib/response");
-const { reverseString1 } = require("../DSA_70/reverseString");
+//const { format } = require("express/lib/response");
+const {
+  reverseString1,
+} = require("../Basic Challenges - Part 1/reverseString");
 function palindromeCheck1(str) {
   const formatedStr = str.toLowerCase().replace(/[^a-z0-9]/g, "");
   const reversedStr = reverseString1(str)

@@ -1,4 +1,7 @@
-const { validateEmail, validateEmail1 } = require("../DSA_70/validateEmail");
+const {
+  validateEmail,
+  validateEmail1,
+} = require("../../DSA_70/Basic Challenges - Part 2/validateEmail");
 test("validate Email Address", () => {
   expect(validateEmail("abcd@gmail.com")).toBe(true);
   expect(validateEmail("abc1_2d@@gmail.com")).toBe(false);

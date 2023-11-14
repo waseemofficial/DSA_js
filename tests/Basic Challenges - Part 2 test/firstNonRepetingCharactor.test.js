@@ -1,7 +1,7 @@
 const {
   firstNonRepetingCharactor,
   firstNonRepetingCharactor1,
-} = require("../DSA_70/firstNonRepetingCharactor");
+} = require("../../DSA_70/Basic Challenges - Part 2/firstNonRepetingCharactor");
 //first method
 test("check which is the first non repeting charactor from the given word", () => {
   expect(firstNonRepetingCharactor("aabccdeff")).toBe("b");

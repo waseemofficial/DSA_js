@@ -1,4 +1,7 @@
-const { findMaxNum1, findMaxNum2 } = require("../DSA_70/maxNum");
+const {
+  findMaxNum1,
+  findMaxNum2,
+} = require("../../DSA_70/Basic Challenges - Part 1/maxNum");
 let array = [5, 32, 6, 41, 7, 8, 10, 9];
 //first method
 test("find max num from the given array using Math lib", () => {

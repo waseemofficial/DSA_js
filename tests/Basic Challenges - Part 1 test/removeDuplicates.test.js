@@ -3,7 +3,7 @@ const {
   removeDuplicates1,
   removeDuplicates2,
   removeDuplicates3,
-} = require("../DSA_70/removeDuplicates");
+} = require("../../DSA_70/Basic Challenges - Part 1/removeDuplicates");
 //first method
 test("renove duplicates alphebets from the given Array of words and numbers", () => {
   expect(removeDuplicates([true, true, false, false])).toEqual([true, false]);

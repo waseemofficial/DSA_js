@@ -8,7 +8,7 @@ const {
   some1,
   every1,
   every2,
-} = require("../DSA_70/highOrderArrayMethods");
+} = require("../../DSA_70/High Order Array Methods/highOrderArrayMethods");
 describe("functanalit of higher order array methods", () => {
   test("map() method", () => {
     expect(map1()).toEqual([2, 4, 6, 8, 10]);

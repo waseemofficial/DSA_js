@@ -1,4 +1,4 @@
-const fizbuz = require("../DSA_70/fizbuz");
+const fizbuz = require("../../DSA_70/Basic Challenges - Part 2/fizbuz");
 test("test functionality of fizzbuzz", () => {
   expect(fizbuz(15)).toEqual([
     1,

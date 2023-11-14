@@ -1,4 +1,4 @@
-const displayLikes = require("../DSA_70/displayLikes");
+const displayLikes = require("../../DSA_70/Basic Challenges - Part 2/displayLikes");
 test("display Likes of the post", () => {
   expect(displayLikes([])).toEqual("no one likes this");
   expect(displayLikes(["Peter"])).toEqual("Peter likes this");

@@ -1,7 +1,7 @@
 const {
   findTheMissingLetter,
   findTheMissingLetter1,
-} = require("../DSA_70/findTheMissingLetter");
+} = require("../../DSA_70/Basic Challenges - Part 2/findTheMissingLetter");
 // first method
 test("find the missing letter from the given array", () => {
   expect(findTheMissingLetter(["a", "b", "c", "e", "f"])).toBe("d");
