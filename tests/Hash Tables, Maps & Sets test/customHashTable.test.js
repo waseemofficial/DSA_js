@@ -14,7 +14,12 @@ describe("Custom Hash Table", () => {
     hashTable.set("age", 30);
     expect(hashTable.get("firstName")).toBe("John");
     expect(hashTable.get("age")).toBe(30);
+    expect(hashTable.get("age")).toBeGreaterThan(29);
+    expect(hashTable.get("age")).toBeGreaterThanOrEqual(29);
+    expect(hashTable.get("age")).toBeLessThan(31);
+    expect(hashTable.get("age")).toBeLessThanOrEqual(32);
     expect(hashTable.get("lastName")).toBe("Smith");
+    expect(hashTable.get("lastName")).toMatch(/^Sm/);
   });
   test("set and delete a name", () => {
     hashTable.set("age", 30);
@@ -44,5 +49,8 @@ describe("Custom Hash Table", () => {
     hashTable.set("lastName", "Smith");
     hashTable.set("age", 30);
     expect(hashTable.getValues()).toEqual(["John", "Smith", 30]);
+    expect(hashTable.getValues()).toContain("John");
+    expect(hashTable.getValues()).toContain("Smith");
+    expect(hashTable.getValues()).toContain(30);
   });
 });
