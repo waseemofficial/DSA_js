@@ -36,7 +36,7 @@ test("test append in doubly Link List", () => {
   expect(list.head).toMatchObject({ data: "b" });
 });
 */
-test("test prepend in doubly Link List", () => {
+test("test remove in doubly Link List", () => {
   //console.log(list);
   expect(list.length).toBe(6);
   list.remove(1);
