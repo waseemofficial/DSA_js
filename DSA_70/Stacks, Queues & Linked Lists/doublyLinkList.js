@@ -1,13 +1,16 @@
+// Node structure
 function Node(data) {
   this.data = data;
   this.next = null;
   this.prev = null;
 }
+//Doubly Link List
 function DoublyLinkList() {
   this.head = null;
   this.tail = null;
   this.length = 0;
 }
+// append function
 DoublyLinkList.prototype.append = function (data) {
   const newNode = new Node(data);
   if (!this.head) {
@@ -20,6 +23,7 @@ DoublyLinkList.prototype.append = function (data) {
   }
   this.length++;
 };
+// prepend function
 DoublyLinkList.prototype.prepend = function (data) {
   const newNode = new Node(data);
   if (!this.head) {
@@ -32,6 +36,7 @@ DoublyLinkList.prototype.prepend = function (data) {
   }
   this.length++;
 };
+//insert Function
 DoublyLinkList.prototype.insertAt = function (index, data) {
   if (index <= 0 || index > this.length) {
     return null;
@@ -53,6 +58,7 @@ DoublyLinkList.prototype.insertAt = function (index, data) {
   currentNode.next = newNode;
   this.length++;
 };
+//get function
 DoublyLinkList.prototype.get = function (index) {
   if (index <= 0 || index > this.length) {
     return null;
@@ -63,6 +69,7 @@ DoublyLinkList.prototype.get = function (index) {
   }
   return currentNode;
 };
+// Remove function
 DoublyLinkList.prototype.remove = function (index) {
   if (index < 0 || index > this.length) {
     return null;
@@ -91,7 +98,18 @@ DoublyLinkList.prototype.remove = function (index) {
   }
   this.length--;
 };
-
+// contains function
+DoublyLinkList.prototype.contains = function (data) {
+  let current = this.head;
+  while (current) {
+    if (current.data === data) {
+      return true;
+    }
+    current = current.next;
+  }
+  return false;
+};
+// Print All function
 DoublyLinkList.prototype.printAll = function () {
   let current = this.head;
   while (current) {
@@ -99,5 +117,5 @@ DoublyLinkList.prototype.printAll = function () {
     current = current.next;
   }
 };
-
+// Export
 module.exports = { DoublyLinkList };

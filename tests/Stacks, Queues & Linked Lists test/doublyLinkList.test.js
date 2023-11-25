@@ -59,3 +59,20 @@ test("test remove in doubly Link List", () => {
   // console.log(list);
   // expect(list.head).toMatchObject({ data: "b" });
 });
+test("test the contains functionality in the Doubly Link List", () => {
+  console.log(list);
+  expect(list.contains(90)).toBeTruthy();
+  expect(list.contains("b")).toBeTruthy();
+  expect(list.contains(200)).toBeTruthy();
+  expect(list.contains("a")).toBeFalsy();
+  expect(list.contains(300)).toBeTruthy();
+  expect(list.contains(100)).toBeFalsy();
+  expect(list.length).toBe(4);
+});
+// test("should print all nodes in the list", () => {
+//   const spy = jest.spyOn(console, "log");
+//   list.printAll();
+//   console.log(spy);
+//   expect(spy).toHaveBeenCalledWith(100);
+//   spy.mockRestore();
+// });
